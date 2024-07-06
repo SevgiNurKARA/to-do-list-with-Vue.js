@@ -1,0 +1,148 @@
+header {
+    background-color: peachpuff;
+    color: white;
+    padding: 10px 0;    
+  }
+  
+  .navbar {
+    display: flex;
+    flex-direction: column; /* Logo ve nav-link'leri üst üste koyar */
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .logo img {
+    height: auto;
+    width: auto;
+  }
+  
+  #app {
+    font-family: Arial, sans-serif;
+  }
+  
+  .container {
+    margin: 20px auto;
+    max-width: 800px ;
+    flex: 1;
+  }
+  
+  .title {
+    text-align: center;
+    font-size: 36px;
+    font-weight: bold;
+  }
+  
+  hr {
+    border: 1px solid #ccc;
+  }
+  
+  .input-group {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  .form-control {
+    flex: 1;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    margin-right: 10px;
+  
+  }
+  
+  .btn-success {
+    border-radius: 5px;
+    padding: 10px 20px;
+    background-color: #16a036;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .todo-table {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    overflow: hidden;
+    overflow-wrap: break-word;
+    
+  }
+  
+  .table-header {
+    display: flex;
+    background-color: #f0f0f0;
+    padding: 10px;
+    
+  }
+  
+  .table-cell {
+    flex: 1;
+    padding: 5px;
+    font-size: 18px;
+    border-radius: 50px;
+    margin: center;
+  }
+  
+  .table-body {
+    display: grid;
+    padding: 5px;
+    gap: 5px;
+    max-width: 100% ;
+  }
+  
+  .table-row {
+    display: flex;
+    border-top: 1px solid #ccc;
+    border-radius: 10px;
+  }
+  
+  .even-row {
+    background-color: peachpuff;
+   
+  }
+  
+  .completed {
+    text-decoration: line-through;
+    text-decoration-color: #dc3545;
+  }
+  
+  .completed-cell {
+    color: #888;
+  }
+  
+  .button-container {
+    display: inline-flex;
+    gap: 5px; /* Butonlar arasında boşluk */
+  }
+  
+  .btn {
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    border: 1px solid rgb(0, 0, 0);
+  }
+  
+  .btn-primary {
+    background-color: #0778f1;
+    color: white;
+    border-radius: 50px;
+    border: 1px solid  rgb(8, 8, 8);
+  }
+  
+  .btn-info {
+    background-color: #17a2b8;
+    color: white;
+    border-radius: 50px;
+    border:  1px solid rgb(0, 0, 0);
+  }
+  
+  .btn-danger {
+    background-color: #dc3545;
+    border-radius: 50px;
+    color: white;
+    border: 1px solid rgb(7, 7, 7);
+  }
+  button{
+  margin: right 15px;
+  }
