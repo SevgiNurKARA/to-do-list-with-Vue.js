@@ -1,14 +1,5 @@
 <template>
     <div id="app">
-      <header>
-        <nav class="navbar">
-          <div class="logo">
-            <img src=
-  "https://vueschool.io/img/logo/vueschool_logo_multicolor_negative.svg" 
-  alt="World logo">
-          </div>
-        </nav>
-      </header>
       <div class="container">
         <h1 class="title">TODO LIST</h1>
         <hr>
@@ -33,7 +24,7 @@
               item.completed }">{{ item.value }}</div>
               <div class="table-cell">
                 <div class="button-container">
-                <button class="btn btn-primary"
+                <button class="btn btn-complete" 
                 @click="toggleCompleted(index)">
                   {{ item.completed ? 'Undo' : 'Complete' }}
                 </button>
